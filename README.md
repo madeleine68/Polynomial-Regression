@@ -31,6 +31,6 @@ ggplot() +
   xlab('Level') +
   ylab('Salary')
   ```
-  
+  ![plot_zoom_png (1)](https://user-images.githubusercontent.com/46178706/63399727-6dbf9800-c39f-11e9-9ad5-5346a4fa12cc.jpg)
   
 As it shown in figure, the model is fit very well with the data. now the HR people can have estimate for the new employee salary by using the regression model. 
