@@ -34,7 +34,7 @@ ggplot() +
   ![plot_zoom_png (1)](https://user-images.githubusercontent.com/46178706/63399727-6dbf9800-c39f-11e9-9ad5-5346a4fa12cc.jpg)
   
 As it shown in figure, the model is fit very well with the data. now the HR people can have estimate for the new employee salary by using the regression model. 
-For example, to find out the salary for someone in level 6.5: 
+For example, to find out the salary for someone in level 6.5, I create a new data frame containing this value, since 6.5 does not exist in data set.
 
 ```
 predict(poly_reg, data.frame(Level = 6.5,
